@@ -74,7 +74,7 @@
       <ul data-navbar-target="navbarMenu" class="hidden navbar-menu md:flex" style="z-index: 10">
         <li class="px-5 py-2 md:px-2">
           <%= link_to "會員登入" , new_user_session_path, data: { action: "click->modal#toggleModal", turbo_frame: :login, frame: :login }, class: "btn-round btn-sm btn-black" %>
-        </li>
+        </li> 
         <li class="px-5 py-2 md:px-2">
           <%= link_to "註冊", new_user_registration_path, data: { action: "click->modal#toggleModal", turbo_frame: :signup, frame: :signup }, class: "btn-round btn-sm btn-gray" %>
         </li>

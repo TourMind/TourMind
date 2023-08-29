@@ -37,6 +37,8 @@ ActiveRecord::Schema.define(version: 2023_05_25_142119) do
     t.bigint "user_id"
     t.integer "commentable_id"
     t.string "commentable_type"
+    t.datetime "deleted_at"
+    t.index ["deleted_at"], name: "index_comments_on_deleted_at"
     t.index ["user_id"], name: "index_comments_on_user_id"
   end
 

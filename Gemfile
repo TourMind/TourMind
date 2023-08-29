@@ -83,6 +83,7 @@ gem 'fog-aws'
 gem 'foreman', '~> 0.87.2'
 gem 'friendly_id', '~> 5.4'
 gem 'pagy'
+gem 'paranoia', '~> 2.6', '>= 2.6.1'
 gem 'requestjs-rails'
 gem 'turbo-rails'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
